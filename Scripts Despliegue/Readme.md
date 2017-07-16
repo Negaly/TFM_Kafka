@@ -3,6 +3,7 @@ This files refer to script for launching and stopping kafka basic services durin
 Kafka Basic
   run-basic.sh
     Inicialmente el script de ejecución será en local por lo que usaremos Gnome-terminal para abrir en un terminal distinto cada uno de los sistemas, inicialmente configuraremos el directorio de forma estática apuntando a la instalación donde hayamos descargado Confluent.
+    
     CONFLUENT_DIRECTORY='/TFM/confluent-3.2.0' #Cambiar 
     cd $CONFLUENT_DIRECTORY;pwd
 
